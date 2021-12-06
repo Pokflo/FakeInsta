@@ -1,0 +1,92 @@
+body {
+	background-color:rgba(247, 243, 235, 1) ;
+}
+/* --- img iphone --- */
+
+.conteneur {
+	display: flex;
+	align-items: center;
+	height: 300px;
+}
+img {
+	width: auto;
+	position: absolute;
+	top: 50%;
+	transform: translate(75%, -50%);
+}
+
+/* --- Formulaire --- */
+
+.formu {
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	background-color: #fff ;
+	border: 1px solid #dbdbdb;
+	padding: 10px 0;
+	width: 320px;
+	text-align: center;
+	
+}
+.formu2{
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	background-color: #fff ;
+	border: 1px solid #dbdbdb;
+	padding: 10px 0;
+	width: 320px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	color: rgb(0, 149, 246);
+}
+
+.logo {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+#form1 {
+	margin-bottom: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	width: 251px;
+	height: 35px;
+	
+}
+
+#form2 {
+	margin-bottom: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.but1 {
+	margin-left: 55px;
+}
+
+#img1 {
+	height: 40px;
+	width: auto;
+	left: 900px;
+
+}
+#img2 {
+	height: 40px;
+	width: auto;
+	left: 700px;
+}
+#dlapp {
+	display: flex;
+	justify-content: center;
+}
